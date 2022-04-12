@@ -12,7 +12,7 @@ package org.success;
 
 import java.util.Arrays;
 
-public class Sum3 {
+public class Matrix {
     public static int[][] solution(int[][] arr1, int[][] arr2) {
         int[][] answer = {};
 

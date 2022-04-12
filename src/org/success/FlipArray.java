@@ -9,7 +9,7 @@ package org.success;
         n	return
         12345	[5,4,3,2,1]
 */
-public class Array {
+public class FlipArray {
     public static int[] solution(long n) {
         String[] number = (String.valueOf(n).split(""));
 

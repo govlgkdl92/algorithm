@@ -15,7 +15,7 @@ package org.success;
 
         입출력 예 #2
         9 + 8 + 7 = 24이므로 24를 return 하면 됩니다.*/
-public class Sum2 {
+public class AddDigits {
     public static int solution(int n) {
         int answer = 0;
         String num = String.valueOf(n);

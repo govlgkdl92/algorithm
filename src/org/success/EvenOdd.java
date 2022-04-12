@@ -11,7 +11,7 @@ package org.success;
         num	return
         3	"Odd"
         4	"Even"*/
-public class Su {
+public class EvenOdd {
     public static String solution(int num) {
         String answer = "";
         if(num % 2 == 0){
