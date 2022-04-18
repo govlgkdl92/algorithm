@@ -14,6 +14,7 @@ package org.success;
 public class EvenOdd {
     public static String solution(int num) {
         String answer = "";
+
         if(num % 2 == 0){
             answer ="Even";
         }else{
@@ -25,7 +26,7 @@ public class EvenOdd {
 
     //main
     public static void main(String[] args) {
-        int a = 22;
+        int a = 50;
         String solution = solution(a);
         System.out.println(solution);
     }
