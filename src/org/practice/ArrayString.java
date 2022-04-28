@@ -17,21 +17,10 @@ import java.util.Arrays;
         ["sun", "bed", "car"]	1	["car", "bed", "sun"]
         ["abce", "abcd", "cdx"]	2	["abcd", "abce", "cdx"]*/
 public class ArrayString {
-    public static String[] solution(String[] strings, int n) {
+    public String[] solution(String[] strings, int n) {
         String[] answer = new String[strings.length];
 
         return answer;
     }
 
-    //main
-    public static void main(String[] args) {
-        String[] n = {"sun", "bed", "car"};
-        int m = 1;
-        String[] solution = solution(n, m);
-        //System.out.println(solution);
-
-        for (int i = 0; i <solution.length; i++) {
-            System.out.print(solution[i]+" ");
-        }
-    }
 }
