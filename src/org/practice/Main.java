@@ -5,14 +5,13 @@ import org.success.Unfinished;
 public class Main {
 
     public static void main(String[] args) {
-        PyNumber pyNumber = new PyNumber();
+        //PyNumber pyNumber = new PyNumber();
 
         String n = "pPoooyY";
         String m = "Pyy";
 
-        boolean solution = pyNumber.solution(n);
-
-        System.out.println(solution);
+        //boolean solution = pyNumber.solution(n);
+        //System.out.println(solution);
     }
 
 /*    public static void main(String[] args) {
