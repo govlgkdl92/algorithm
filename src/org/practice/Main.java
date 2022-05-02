@@ -5,12 +5,12 @@ import org.success.Unfinished;
 public class Main {
 
     public static void main(String[] args) {
-        Unfinished unfinished = new Unfinished();
+        PyNumber pyNumber = new PyNumber();
 
-        String[] n = {"marina", "josipa", "nikola", "vinko", "filipa"};
-        String[] m = {"josipa", "filipa", "marina", "nikola"};
+        String n = "pPoooyY";
+        String m = "Pyy";
 
-        String solution = unfinished.solution(n, m);
+        boolean solution = pyNumber.solution(n);
 
         System.out.println(solution);
     }
