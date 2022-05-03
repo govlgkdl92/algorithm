@@ -1,16 +1,16 @@
 package org.practice;
 
-import org.success.Unfinished;
+import org.success.ArrayString2;
 
 public class Main {
 
     public static void main(String[] args) {
-        //PyNumber pyNumber = new PyNumber();
+        //ArrayString2 arrayString2 = new ArrayString2();
 
         String n = "pPoooyY";
-        String m = "Pyy";
+        String m = "Zbcdefg";
 
-        //boolean solution = pyNumber.solution(n);
+        //String solution = arrayString2.solution(m);
         //System.out.println(solution);
     }
 
