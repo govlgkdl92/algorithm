@@ -1,21 +1,22 @@
 package org.practice;
 
-import org.success.ArrayString;
-
 public class Main {
 
     public static void main(String[] args) {
-        ArrayString arrayString = new ArrayString();
+        Insufficient quiz = new Insufficient();
 
-        String[] n = {"sun", "bed", "car"};
-        int m = 1;
+        int price = 3;
+        int money = 20;
+        int count = 4;
 
         int[] answers = {1, 2, 3, 4, 5, 2, 3, 4, 5, 5};
-        String[] solution = arrayString.solution(n, m);
+        long solution = quiz.solution(price, money, count);
 
-        for (int i = 0; i < solution.length; i++) {
+        System.out.println(solution);
+
+        /*for (int i = 0; i < solution.length; i++) {
             System.out.print(solution[i] + " ");
-        }
+        }*/
     }
 
 }
