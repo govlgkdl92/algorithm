@@ -1,6 +1,6 @@
 package org.practice;
 
-import org.success.Insufficient;
+import org.success.TwoSum;
 
 public class Main {
 

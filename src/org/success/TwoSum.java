@@ -1,4 +1,4 @@
-package org.practice;
+package org.success;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -22,8 +22,8 @@ public class TwoSum {
 
         for (int i = 1; i< numbers.length; i++) {
             for (int j = i; j < numbers.length; j++) {
-                list.add(numbers[j-1]+numbers[j]);
-                System.out.println(numbers[j-1]+numbers[j]);
+                list.add(numbers[i-1]+numbers[j]);
+                System.out.println(numbers[i-1]+numbers[j]);
             }
         }
         list = (List<Integer>) list.stream().distinct().collect(Collectors.toList());
