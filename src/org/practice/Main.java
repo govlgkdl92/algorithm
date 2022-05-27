@@ -1,24 +1,21 @@
 package org.practice;
 
-import org.success.TwoSum;
+import org.success.DivisionOne;
 
 public class Main {
 
     public static void main(String[] args) {
-        TwoSum quiz = new TwoSum();
+        KArray quiz = new KArray();
+        DivisionOne divisionOne = new DivisionOne();
 
-        int price = 3;
-        int money = 20;
-        int count = 4;
-        int[] arr = {5, 0, 2, 7};
-        int[] answers = {1, 2, 3, 4, 5, 2, 3, 4, 5, 5};
+        int[] arr = {1, 5, 2, 6, 3, 7, 4};
+        int[][] arr2 = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
 
-        int[] solution = quiz.solution(arr);
+        int[] solution = quiz.solution(arr, arr2);
 
-        System.out.println(solution);
-
+        System.out.println();
         for (int i = 0; i < solution.length; i++) {
-            System.out.print(solution[i] + " ");
+            System.out.print("KArray["+i+"]: "+solution[i] + " ");
         }
     }
 
