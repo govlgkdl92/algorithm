@@ -33,7 +33,7 @@ public class Sosu {
             }
 
             // 이미 지워진 숫자가 아니라면, 그 배수부터 출발하여, 가능한 모든 숫자 지우기
-            for(int j=2*i;j<=number; j+=i) {
+               for(int j=2*i;j<=number; j+=i) {
                 arr[j] = 0;
             }
         }

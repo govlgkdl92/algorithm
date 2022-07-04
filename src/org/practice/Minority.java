@@ -10,16 +10,12 @@ nums 의 각 원소는 1 이상 1,000 이하의 자연수이며, 중복된 숫�
 입출력 예
 nums	        result
 [1,2,3,4]	    1
-[1,2,7,6,4]	    4
-*/
-
+[1,2,7,6,4]	    4                   */
 public class Minority {
     public int solution(int[] nums) {
+        //6, 7, 9
 
-
-
-
-
+        
         int answer = 0;
         int number = 10;
         int arr[] = new int[number+1];
